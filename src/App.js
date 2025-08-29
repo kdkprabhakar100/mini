@@ -1,8 +1,11 @@
+import Counter from "./counter";
+
 function App() {
   return (
-    <div>
-      <h1>Hello React 🚀</h1>
-    </div>
+    <main style={{ padding: "2rem", fontFamily: "system-ui, sans-serif" }}>
+      <h1>Day 2: State & Events</h1>
+      <Counter />
+    </main>
   );
 }
 
