@@ -2,6 +2,7 @@ import Counter from "./counter";
 import TodoList from "./Todolist";
 import RandomUser from "./RandomUser";
 import MyForm from "./MyForm";
+import Formfull from "./Formfull";
 function App() {
   return (
     <main style={{ padding: "2rem", fontFamily: "system-ui, sans-serif" }}>
@@ -13,6 +14,7 @@ function App() {
       <RandomUser />
       <h1>Day 5: forms and controlled components</h1>
       <MyForm />
+      <Formfull />
     </main>
   );
 }
